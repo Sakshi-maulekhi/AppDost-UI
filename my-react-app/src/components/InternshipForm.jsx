@@ -18,9 +18,9 @@ const InternshipForm = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log('Form submitted', formData);
-    // Use API: submitApplication(formData).then(...)
+    
     alert('Application submitted! Thanks.');
-    // Reset form if needed
+    
     setFormData({
       fullName: '',
       email: '',

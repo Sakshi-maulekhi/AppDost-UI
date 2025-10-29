@@ -1,15 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import InternshipList from '../components/InternshipList';
 import InternshipForm from '../components/InternshipForm';
-// Import your API methods if you have backend ready
-// import { fetchInternships, submitApplication } from '../api/internshipApi';
 
 const InternshipsPage = () => {
   const [internships, setInternships] = useState([]);
 
   useEffect(() => {
-    // Example: fetchInternships().then(data => setInternships(data));
-    // For now use dummy data
+   
     const dummy = [
       { id: 1, role: 'Front End Developer Intern', duration: '3 months', stipend: '₹1,000 - 1,500/­month' },
       { id: 2, role: 'Full Stack Developer Intern', duration: '3 months', stipend: '₹1,000 - 1,500/­month' },
